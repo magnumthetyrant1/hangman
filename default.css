@@ -1,0 +1,40 @@
+body{
+  font-family: 'Space Mono', monospaced;
+}
+div{
+  text-align: center;
+  align-items: center;
+}
+.keyboard_button{
+  font-weight: bold;
+  font-size: 18pt;
+  color: white;
+  background-color: black;
+  border: 0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.keyboard_button:hover{
+  background-color: white;
+  color: black;
+}
+.word{
+  font-size: 17pt;
+  text-align: right;
+}
+.button_disabled{
+  color: white;
+  background-color: grey;
+  font-size: 18pt;
+  border: 0;
+  margin-bottom: 5px;
+}
+#text{
+  font-size: 18pt;
+}
+#guess{
+  text-transform: uppercase;
+}
+.turns{
+  font-weight: bold;
+}
